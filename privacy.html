@@ -5,33 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policy — MyJobHub</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/icon.png" />
 </head>
 <body>
 
   <nav>
-    <a href="index.html" class="nav-logo">MyJobHub</a>
+    <a href="index.html" class="nav-brand">
+      <img src="assets/icon.png" alt="MyJobHub icon" onerror="this.style.display='none'" />
+      <span class="nav-logo">MyJobHub</span>
+    </a>
     <div class="nav-links">
-      <a href="index.html#features">Features</a>
+      <a href="index.html#features" class="hide-mobile">Features</a>
       <a href="privacy.html">Privacy</a>
       <a href="terms.html">Terms</a>
       <a href="mailto:support@myjobhub.app">Support</a>
     </div>
   </nav>
 
-  <div class="legal-wrap">
+  <div class="legal-hero">
     <h1>Privacy Policy</h1>
     <p class="updated">Last updated: March 30, 2026</p>
+  </div>
 
+  <div class="legal-wrap">
     <p>MyJobHub ("we," "our," or "us") is committed to protecting your privacy. This policy explains what information we collect and how we use it.</p>
 
     <h2>Information We Collect</h2>
-
     <p><strong>Information you provide:</strong> Job application details, contact information, resume content, and cover letter content that you enter into the app. This data is stored locally on your device and is never sold or shared with third parties.</p>
-
     <p><strong>AI feature usage:</strong> When you use AI-powered features (resume improvement, cover letter generation, ATS scanning), the relevant resume or cover letter content is sent to our secure processing server to generate your results. This content is not stored after processing is complete.</p>
-
     <p><strong>Analytics:</strong> We collect anonymous usage data (such as which features you use and how often) to help us improve the app. This is handled by PostHog. No personally identifiable information is included.</p>
-
     <p><strong>Crash reports:</strong> If the app crashes, an anonymous crash report is sent to Sentry to help us identify and fix bugs. These reports contain technical information about the crash but do not include your resume or application data.</p>
 
     <h2>How We Use Your Information</h2>
@@ -66,12 +68,19 @@
   </div>
 
   <footer>
-    <div class="footer-links">
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="terms.html">Terms of Use</a>
-      <a href="mailto:support@myjobhub.app">Contact</a>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/icon.png" alt="MyJobHub" onerror="this.style.display='none'" />
+        <span class="footer-brand-name">MyJobHub</span>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="mailto:support@myjobhub.app">Contact</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 MyJobHub. All rights reserved.</p>
     </div>
-    <p>&copy; 2026 MyJobHub. All rights reserved.</p>
   </footer>
 
 </body>

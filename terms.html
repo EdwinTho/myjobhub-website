@@ -5,23 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Terms of Use — MyJobHub</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/icon.png" />
 </head>
 <body>
 
   <nav>
-    <a href="index.html" class="nav-logo">MyJobHub</a>
+    <a href="index.html" class="nav-brand">
+      <img src="assets/icon.png" alt="MyJobHub icon" onerror="this.style.display='none'" />
+      <span class="nav-logo">MyJobHub</span>
+    </a>
     <div class="nav-links">
-      <a href="index.html#features">Features</a>
+      <a href="index.html#features" class="hide-mobile">Features</a>
       <a href="privacy.html">Privacy</a>
       <a href="terms.html">Terms</a>
       <a href="mailto:support@myjobhub.app">Support</a>
     </div>
   </nav>
 
-  <div class="legal-wrap">
+  <div class="legal-hero">
     <h1>Terms of Use</h1>
     <p class="updated">Last updated: March 30, 2026</p>
+  </div>
 
+  <div class="legal-wrap">
     <p>By downloading or using <strong>MyJobHub</strong>, you agree to these Terms of Use. Please read them carefully.</p>
 
     <h2>Use of the App</h2>
@@ -50,12 +56,19 @@
   </div>
 
   <footer>
-    <div class="footer-links">
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="terms.html">Terms of Use</a>
-      <a href="mailto:support@myjobhub.app">Contact</a>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/icon.png" alt="MyJobHub" onerror="this.style.display='none'" />
+        <span class="footer-brand-name">MyJobHub</span>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="mailto:support@myjobhub.app">Contact</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 MyJobHub. All rights reserved.</p>
     </div>
-    <p>&copy; 2026 MyJobHub. All rights reserved.</p>
   </footer>
 
 </body>
